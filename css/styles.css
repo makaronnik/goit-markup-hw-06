@@ -84,6 +84,28 @@ body {
   cursor: pointer;
 }
 
+.big-button {
+  padding: 10px 32px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  border: 0 solid transparent;
+  border-radius: 4px;
+  color: var(--text-color-button-text-light);
+  background-color: var(--bg-color-button-accent-primary);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.big-button:hover,
+.big-button:focus {
+  background-color: var(--bg-color-button-accent-secondary);
+}
+
 .text-center {
   text-align: center;
 }
@@ -232,25 +254,6 @@ body {
 
 .hero__button {
   margin-top: 30px;
-  padding: 10px 32px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  border: 0 solid transparent;
-  border-radius: 4px;
-  color: var(--text-color-button-text-light);
-  background-color: var(--bg-color-button-accent-primary);
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero__button:hover,
-.hero__button:focus {
-  background-color: var(--bg-color-button-accent-secondary);
 }
 
 /* Features & Portfolio */
