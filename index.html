@@ -73,7 +73,7 @@
 
       <section class="features section">
         <div class="container">
-          <h2 class="features__heading">Особливості</h2>
+          <h2 class="features__heading visibility-hidden">Особливості</h2>
           <ul class="features-list">
             <li class="features-list__item">
               <div class="features-list__thumb">
@@ -470,7 +470,7 @@
               />
               <button class="button big-button subscription__submit-button" type="submit">
                 Підписатися
-                <svg class="subscription__icon" height="18" width="18">
+                <svg class="subscription__icon" height="24" width="24">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
               </button>
@@ -487,6 +487,69 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+
+        <h2 class="modal__heading">Залиште свої дані, ми вам передзвонимо</h2>
+
+        <form name="order_form" class="modal__form order-form" autocomplete="off">
+          <label class="order-form__label order-form__input-label">
+            Ім'я
+            <input class="order-form__input" type="text" name="name" />
+            <svg class="order-form__input-icon" height="18" width="18">
+              <use href="./images/icons.svg#icon-person-form"></use>
+            </svg>
+          </label>
+
+          <label class="order-form__label order-form__input-label">
+            Телефон
+            <input class="order-form__input" type="tel" name="phone" />
+            <svg class="order-form__input-icon" height="18" width="18">
+              <use href="./images/icons.svg#icon-phone-form"></use>
+            </svg>
+          </label>
+
+          <label class="order-form__label order-form__input-label">
+            Пошта
+            <input class="order-form__input" type="email" name="email" />
+            <svg class="order-form__input-icon" height="18" width="18">
+              <use href="./images/icons.svg#icon-email-form"></use>
+            </svg>
+          </label>
+
+          <label class="order-form__label order-form__input-label">
+            Коментар
+            <textarea
+              class="order-form__input order-form__textarea"
+              name="comment"
+              placeholder="Введіть текст"
+            ></textarea>
+          </label>
+
+          <label class="order-form__label order-form__checkbox-label">
+            <input class="order-form__checkbox visibility-hidden" type="checkbox" name="accept" />
+            <svg
+              class="order-form__checkbox-icon order-form__checkbox-icon--unchecked"
+              height="15"
+              width="16"
+            >
+              <use href="./images/icons.svg#icon-checkbox-unchecked"></use>
+            </svg>
+            <svg
+              class="order-form__checkbox-icon order-form__checkbox-icon--checked"
+              height="15"
+              width="16"
+            >
+              <use href="./images/icons.svg#icon-checkbox-checked"></use>
+            </svg>
+            <span class="order-form__label-text"
+              >Погоджуюся з розсилкою та приймаю
+              <a class="order-form__link" href="">Умови договору</a></span
+            >
+          </label>
+
+          <button class="button big-button order-form__submit-button" type="submit">
+            Відправити
+          </button>
+        </form>
       </div>
     </div>
   </body>
