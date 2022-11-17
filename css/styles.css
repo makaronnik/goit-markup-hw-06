@@ -15,6 +15,8 @@
   --text-color-address: #fff;
   --text-color-social: #afb1b8;
   --text-color-social-hover: #fff;
+  --text-color-subscription-input: #fff;
+  --text-color-subscription-placeholder: rgba(255, 255, 255, 0.6);
   --thumb-color: #afb1b8;
   --thumb-color-hover: #2196f3;
   --bg-color-primary: #fff;
@@ -29,6 +31,8 @@
   --bg-color-modal: #fff;
   --header-border-color: #ececec;
   --portfolio-cards-border-color: #eee;
+  --input-border-color-focused: #2196f3;
+  --subscription-input-border-color: rgba(255, 255, 255, 0.3);
   --list-items-gap: 30px;
 }
 
@@ -551,6 +555,59 @@ body {
 
 .footer-contacts__link--address {
   color: var(--text-color-address);
+}
+
+/* Subscription */
+.subscription {
+  margin-left: 93px;
+}
+
+.subscription__email-label {
+  font-weight: 700;
+}
+
+.subscription__form-group {
+  margin-top: 20px;
+}
+
+.subscription__email-input {
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 50px;
+  width: 358px;
+
+  color: var(--text-color-subscription-input);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.subscription__email-input:focus,
+.subscription__email-input:focus-visible {
+  border-color: var(--input-border-color-focused);
+  outline: none;
+}
+
+.subscription__email-input,
+.subscription__email-input::placeholder {
+  font-style: 16px;
+  line-height: 1.25;
+}
+
+.subscription__email-input::placeholder {
+  color: var(--text-color-subscription-placeholder);
+}
+
+.subscription__submit-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 12px;
+}
+
+.subscription__icon {
+  margin-left: 10px;
 }
 
 /* Portfolio filter */

@@ -452,6 +452,31 @@
             </li>
           </ul>
         </div>
+
+        <div class="site-footer__subscription subscription">
+          <form class="subscription__form" name="subscription_form" autocomplete="off">
+            <label
+              class="site-footer__heading subscription__email-label"
+              for="subscription__email-input"
+              >Підпишіться на розсилку</label
+            >
+            <div class="subscription__form-group">
+              <input
+                id="subscription__email-input"
+                class="subscription__email-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button class="button big-button subscription__submit-button" type="submit">
+                Підписатися
+                <svg class="subscription__icon" height="18" width="18">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
 
