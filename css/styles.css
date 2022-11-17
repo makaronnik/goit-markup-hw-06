@@ -89,7 +89,8 @@ body {
 }
 
 .big-button {
-  padding: 10px 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   font-weight: 700;
   font-size: 16px;
@@ -258,6 +259,8 @@ body {
 
 .hero__button {
   margin-top: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /* Features & Portfolio */
@@ -509,7 +512,7 @@ body {
 }
 
 .site-footer__social-links {
-  margin-left: 92px;
+  margin-left: 94px;
 }
 
 .site-footer__heading {
@@ -604,6 +607,8 @@ body {
   align-items: center;
 
   margin-left: 12px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .subscription__icon {
