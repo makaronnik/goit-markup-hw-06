@@ -500,16 +500,12 @@ body {
   align-items: baseline;
 }
 
-.site-footer__nav-links {
-  width: 231px;
-}
-
 .site-footer__logo {
   color: var(--text-color-footer);
 }
 
 .site-footer__social-links {
-  margin-left: 70px;
+  margin-left: 92px;
 }
 
 .site-footer__heading {
