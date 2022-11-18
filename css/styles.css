@@ -514,6 +514,7 @@ body {
 }
 
 .site-footer__heading {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -563,11 +564,9 @@ body {
   margin-left: 93px;
 }
 
-.subscription__email-label {
-  font-weight: 700;
-}
-
 .subscription__form-group {
+  display: flex;
+
   margin-top: 20px;
 }
 

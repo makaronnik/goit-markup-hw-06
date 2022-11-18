@@ -420,7 +420,7 @@
         </div>
 
         <div class="site-footer__social-links">
-          <h2 class="site-footer__heading">Приєднуйтесь</h2>
+          <p class="site-footer__heading">Приєднуйтесь</p>
           <ul class="site-footer__social-list social-links">
             <li class="social-links__item">
               <a href="" class="site-footer__social-link social-links__link">
@@ -455,18 +455,14 @@
 
         <div class="site-footer__subscription subscription">
           <form class="subscription__form" name="subscription_form" autocomplete="off">
-            <label
-              class="site-footer__heading subscription__email-label"
-              for="subscription__email-input"
-              >Підпишіться на розсилку</label
-            >
+            <p class="site-footer__heading">Підпишіться на розсилку</p>
             <div class="subscription__form-group">
               <input
-                id="subscription__email-input"
                 class="subscription__email-input"
                 type="email"
                 name="email"
                 placeholder="E-mail"
+                aria-label="E-mail"
               />
               <button class="button big-button subscription__submit-button" type="submit">
                 Підписатися
@@ -552,7 +548,7 @@
         </form>
       </div>
     </div>
-  </body>
 
-  <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
 </html>
